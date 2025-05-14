@@ -73,18 +73,7 @@ Note: You may need to modify the dataset paths in train.py to point to your trai
 +     Probability distribution across all classes
 
 ## Project Structure
-plant-disease-diagnosis/
-│
-├── app.py                      # Flask application
-├── train.py                    # Model training script
-├── model/
-│   └── inference.py            # Inference utilities
-├── static/
-│   └── uploads/                # Uploaded images
-├── templates/
-│   └── index.html              # Main application page
-├── potato_disease_model_final_test.h5  # Trained model
-└── class_indices.json          # Class mapping
+<img src="URL-to-image" alt="Project Structure" width="WIDTH" height="HEIGHT">
 
 ## Model Performance
 The model achieved:
