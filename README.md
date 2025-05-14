@@ -12,6 +12,13 @@ This application uses a convolutional neural network (CNN) to classify potato le
 
 The model was trained on a dataset of potato leaf images and deployed as a web application using Flask.
 
+## Dataset
+Dataset - **PlantVillage** from Kaggle
+
++ Early Blight: 982
++ Late Blight: 1000
++ Healthy: 1064
+
 ## Technology Stack
 
 + **Backend**: Python, Flask
