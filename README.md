@@ -1,6 +1,8 @@
 # Plant-Disease-Diagnosis
 A deep learning application that identifies diseases in potato plant leaves, classifying them as Early Blight, Late Blight, or Healthy.
 
+<img src="images/Screenshot 2025-05-14 210424.png" alt="Project Structure" width="WIDTH" height="HEIGHT">
+
 ## Project Overview
 This application uses a convolutional neural network (CNN) to classify potato leaf images into three categories:
 
