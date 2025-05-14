@@ -73,7 +73,7 @@ Note: You may need to modify the dataset paths in train.py to point to your trai
 +     Probability distribution across all classes
 
 ## Project Structure
-<img src="URL-to-image" alt="Project Structure" width="WIDTH" height="HEIGHT">
+<img src="images/Screenshot 2025-05-14 210424.png" alt="Project Structure" width="WIDTH" height="HEIGHT">
 
 ## Model Performance
 The model achieved:
