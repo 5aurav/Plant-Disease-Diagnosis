@@ -19,6 +19,11 @@ Dataset - **PlantVillage** from Kaggle
 + Late Blight: 1000
 + Healthy: 1064
 
+<img src="images/Screenshot 2025-05-14 114027.png" alt="Project Structure" width="WIDTH" height="HEIGHT">
+<img src="images/Screenshot 2025-05-14 114119.png" alt="Project Structure" width="WIDTH" height="HEIGHT">
+<img src="images/Screenshot 2025-05-14 114228.png" alt="Project Structure" width="WIDTH" height="HEIGHT">
+
+
 ## Technology Stack
 
 + **Backend**: Python, Flask
