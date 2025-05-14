@@ -4,18 +4,18 @@ A deep learning application that identifies diseases in potato plant leaves, cla
 ## Project Overview
 This application uses a convolutional neural network (CNN) to classify potato leaf images into three categories:
 
-1.Early Blight
-2.Late Blight
-3.Healthy
++ Early Blight
++ Late Blight
++ Healthy
 
 The model was trained on a dataset of potato leaf images and deployed as a web application using Flask.
 
 ## Technology Stack
 
-**Backend**: Python, Flask
-**Machine Learning**: TensorFlow, Keras
-**Frontend**: HTML, CSS, JavaScript
-**Data Processing**: NumPy, Matplotlib, Seaborn
++ **Backend**: Python, Flask
++ **Machine Learning**: TensorFlow, Keras
++ **Frontend**: HTML, CSS, JavaScript
++ **Data Processing**: NumPy, Matplotlib, Seaborn
 
 ## Features
 
@@ -30,7 +30,7 @@ The model was trained on a dataset of potato leaf images and deployed as a web a
 + Python 3.8+
 + TensorFlow 2.x
 
-Setup
+## Setup
 
 Clone the repository
 git clone https://github.com/yourusername/potato-disease-classifier.git
@@ -47,37 +47,34 @@ Download the model files
 
 Ensure potato_disease_model_final_test.h5 and class_indices.json are in the project root directory
 
-
 Run the application
 python app.py
 
 Open your browser and navigate to http://127.0.0.1:5000/
 
-📊 Model Training
+## Model Training
 The model was trained using a CNN architecture with the following characteristics:
 
-Four convolutional layers with batch normalization
-Dropout layers to prevent overfitting
-Data augmentation (rotation, zoom, flips)
-Class weights to handle imbalanced data
++ Four convolutional layers with batch normalization
++ Dropout layers to prevent overfitting
++ Data augmentation (rotation, zoom, flips)
++ Class weights to handle imbalanced data
 
 To retrain the model:
 python train.py
 Note: You may need to modify the dataset paths in train.py to point to your training and validation data.
-💻 Usage
+## Usage
 
-Launch the application with python app.py
-Click "Upload Image" to select a potato leaf image
-View the prediction results including:
++ Launch the application with python app.py
++ Click "Upload Image" to select a potato leaf image
++ View the prediction results including:
 
-Disease classification
-Confidence score
-Probability distribution across all classes
+++ Disease classification
+++ Confidence score
+++ Probability distribution across all classes
 
-
-
-📁 Project Structure
-potato-disease-classifier/
+## Project Structure
+plant-disease-diagnosis/
 │
 ├── app.py                      # Flask application
 ├── train.py                    # Model training script
@@ -90,11 +87,11 @@ potato-disease-classifier/
 ├── potato_disease_model_final_test.h5  # Trained model
 └── class_indices.json          # Class mapping
 
-📈 Model Performance
+## Model Performance
 The model achieved:
 
-Training accuracy: ~95%
-Validation accuracy: ~93%
-F1-score: ~0.92
++ Training accuracy: **~95%**
++ Validation accuracy: **~93%**
++ F1-score: **~0.92**
 
 Detailed performance metrics can be found in the confusion matrix and classification report generated after training.
