@@ -82,9 +82,13 @@ Note: You may need to modify the dataset paths in train.py to point to your trai
 + Launch the application with python app.py
 + Click "Upload Image" to select a potato leaf image
 + View the prediction results including:
-  -Disease classification
-  -Confidence score
+  - Disease classification
+  - Confidence score
   - Probability distribution across all classes
+ 
+## Results
+<img src="images/Screenshot 2025-05-14 210424.png" alt="Project Structure" width="WIDTH" height="HEIGHT">
+
 
 ## Project Structure
 <img src="images/Screenshot 2025-05-14 210424.png" alt="Project Structure" width="WIDTH" height="HEIGHT">
