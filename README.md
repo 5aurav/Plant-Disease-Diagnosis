@@ -1,33 +1,34 @@
 # Plant-Disease-Diagnosis
 A deep learning application that identifies diseases in potato plant leaves, classifying them as Early Blight, Late Blight, or Healthy.
 
-🌱 Project Overview
+## Project Overview
 This application uses a convolutional neural network (CNN) to classify potato leaf images into three categories:
 
-Early Blight
-Late Blight
-Healthy
+1.Early Blight
+2.Late Blight
+3.Healthy
 
 The model was trained on a dataset of potato leaf images and deployed as a web application using Flask.
-🔧 Technology Stack
 
-Backend: Python, Flask
-Machine Learning: TensorFlow, Keras
-Frontend: HTML, CSS, JavaScript
-Data Processing: NumPy, Matplotlib, Seaborn
+## Technology Stack
 
-📋 Features
+**Backend**: Python, Flask
+**Machine Learning**: TensorFlow, Keras
+**Frontend**: HTML, CSS, JavaScript
+**Data Processing**: NumPy, Matplotlib, Seaborn
 
-Upload potato leaf images for instant disease detection
-View confidence scores for predictions
-View previous uploads and their classifications
-Responsive web interface
+## Features
 
-🚀 Installation
-Prerequisites
++ Upload potato leaf images for instant disease detection
++ View confidence scores for predictions
++ View previous uploads and their classifications
++ Responsive web interface
 
-Python 3.8+
-TensorFlow 2.x
+##  Installation
+### Prerequisites
+
++ Python 3.8+
++ TensorFlow 2.x
 
 Setup
 
